@@ -1,0 +1,22 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <h2 class="custom-heading">{{ title }}</h2>
+      <form class="form">
+        <div class="form-group">
+          <label>Operador A</label>
+          <input type="number" class="form-control" placeholder="Ingresa un numero" [(ngModel)]="numberA" name="numberA">
+        </div>
+        <div class="form-group">
+          <label>Operador B</label>
+          <input type="number" class="form-control" placeholder="Ingresa un numero" [(ngModel)]="numberB" name="numberB">
+        </div>
+          <button type="submit" class="btn btn-primary" (click)="sumar()">Sumar</button>
+      <div class="form-group mt-3">
+        <label>Resultado:</label>
+        <input type="text" class="form-control" placeholder="Resultado" [(ngModel)]="result" name="result" readonly>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>

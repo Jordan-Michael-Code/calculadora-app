@@ -1,0 +1,15 @@
+form {
+    background-color: #f0f0f0;
+    padding: 20px; /* Puedes ajustar esto según tus preferencias para dar espacio alrededor del formulario */
+    border-radius: 8px; /* Puedes agregar bordes redondeados si lo deseas */
+  }
+  .custom-heading {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 0;
+  }
+  .form {
+    margin-top: 0; /* Ajusta el margen superior a 0 para eliminar cualquier espacio sobre el formulario */
+  }
